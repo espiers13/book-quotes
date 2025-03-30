@@ -10,13 +10,19 @@ const seed = ({ quotesData }) => {
               quote_id SERIAL PRIMARY KEY,
               quote VARCHAR NOT NULL,
               author VARCHAR NOT NULL,
-              year VARCHAR NOT NULL
+              year VARCHAR NOT NULL,
+              book VARCHAR NOT NULL
           );`);
     })
     .then(() => {
       const insertQuotesString = format(
-        "INSERT INTO quotes (quote, author, year) VALUES %L RETURNING *;",
-        quotesData.map(({ quote, author, year }) => [quote, author, year])
+        "INSERT INTO quotes (quote, author, year, book) VALUES %L RETURNING *;",
+        quotesData.map(({ quote, author, year, book }) => [
+          quote,
+          author,
+          year,
+          book,
+        ])
       );
       return db.query(insertQuotesString);
     })
