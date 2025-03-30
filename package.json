@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "pg": "^8.14.1",
+    "pg-format": "^1.0.4",
+    "supertest": "^7.1.0"
+  },
+  "name": "book-quotes",
+  "version": "1.0.0",
+  "main": "listen.js",
+  "scripts": {
+    "setup-dbs": "psql -f db/setup.sql",
+    "seed": "PGDATABASE=book_quotes node ./db/seeds/run-seed.js",
+    "test": "jest",
+    "seed-test": "PGDATABASE=book_quotes_test node db/run-seed.js",
+    "start": "node listen.js",
+    "seed-prod": "NODE_ENV=production npm run seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
