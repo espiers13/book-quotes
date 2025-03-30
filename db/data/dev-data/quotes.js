@@ -266,12 +266,6 @@ module.exports = [
     book: "The Cat in the Hat",
   },
   {
-    quote: "You must be the change you wish to see in the world.",
-    author: "Mahatma Gandhi",
-    year: "1913",
-    book: "Non-fiction, excluded",
-  },
-  {
     quote: "To the stars who listen—and the dreams that are answered.",
     author: "Sarah J. Maas",
     year: "2015",
@@ -354,5 +348,103 @@ module.exports = [
     author: "Suzanne Collins",
     year: "2008",
     book: "Catching Fire",
+  },
+  {
+    quote: "No mourners. No funerals. Among them, it passed for a blessing.",
+    author: "Leigh Bardugo",
+    year: "2015",
+    book: "Six of Crows",
+  },
+  {
+    quote:
+      "The circus arrives without warning. No announcements precede it. It is simply there, when yesterday it was not.",
+    author: "Erin Morgenstern",
+    year: "2011",
+    book: "The Night Circus",
+  },
+  {
+    quote: "He was my friend, my lover, my Achilles, and I was his Patroclus.",
+    author: "Madeline Miller",
+    year: "2011",
+    book: "The Song of Achilles",
+  },
+  {
+    quote:
+      "I am not the hero of this story, but I will be the one who tells it.",
+    author: "Madeline Miller",
+    year: "2018",
+    book: "Circe",
+  },
+  {
+    quote:
+      "There is no such thing as a perfect dragon, but some are more perfect than others.",
+    author: "Samantha Shannon",
+    year: "2019",
+    book: "The Priory of the Orange Tree",
+  },
+  {
+    quote: "The world is made of stories, and you tell yours by living it.",
+    author: "V.E. Schwab",
+    year: "2020",
+    book: "The Invisible Life of Addie LaRue",
+  },
+  {
+    quote:
+      "We all have a time to shine, a moment that is ours and ours alone. And the rest is just the waiting.",
+    author: "Louise Erdrich",
+    year: "2020",
+    book: "The Night Watchman",
+  },
+  {
+    quote:
+      "The world is watching, and it is much harder to be a victor than a loser.",
+    author: "Suzanne Collins",
+    year: "2020",
+    book: "The Ballad of Songbirds and Snakes",
+  },
+  {
+    quote: "I am Evelyn Hugo, and I have lived a life you could only dream of.",
+    author: "Taylor Jenkins Reid",
+    year: "2017",
+    book: "The Seven Husbands of Evelyn Hugo",
+  },
+  {
+    quote:
+      "The marsh is not a place for the faint of heart, but for those who can listen to its story, it is full of life.",
+    author: "Delia Owens",
+    year: "2018",
+    book: "Where the Crawdads Sing",
+  },
+  {
+    quote: "To the stars who listen—and the dreams that are answered.",
+    author: "Sarah J. Maas",
+    year: "2015",
+    book: "A Court of Thorns and Roses",
+  },
+  {
+    quote:
+      "Love is a great, big, messy thing. But it’s also, quite simply, everything.",
+    author: "Casey McQuiston",
+    year: "2019",
+    book: "Red, White & Royal Blue",
+  },
+  {
+    quote:
+      "The library is a place where you can find infinite versions of yourself. It's up to you which one you choose.",
+    author: "Matt Haig",
+    year: "2020",
+    book: "The Midnight Library",
+  },
+  {
+    quote: "Fire is catching! And if we burn, you burn with us!",
+    author: "Suzanne Collins",
+    year: "2010",
+    book: "The Hunger Games: Mockingjay",
+  },
+  {
+    quote: "You can't play music if you don't hear it in your soul first.",
+    author: "Jeffrey Renard Allen",
+    year: "2015",
+    book: "The Song of the Shank",
   },
 ];

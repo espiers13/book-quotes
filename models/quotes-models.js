@@ -32,7 +32,9 @@ exports.fetchRandomQuote = (quotesMax) => {
   const id = Math.floor(Math.random() * quotesMax - 1 + 1) + 1;
 
   return db
-    .query(`SELECT author, quote, year FROM quotes WHERE quote_id = $1`, [id])
+    .query(`SELECT author, quote, year, book FROM quotes WHERE quote_id = $1`, [
+      id,
+    ])
     .then(({ rows }) => {
       return rows[0];
     });
